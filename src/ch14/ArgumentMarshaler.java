@@ -1,2 +1,9 @@
-package ch14;public interface ArgumentMarshaler {
+package ch14;
+
+import java.util.Iterator;
+
+public interface ArgumentMarshaler {
+    void set(Iterator<String> currentArgument) throws ArgsException;
+
+
 }
